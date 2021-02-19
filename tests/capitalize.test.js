@@ -1,8 +1,5 @@
-const capitalize = require("../src/capitalize");
+import { capitalize } from "../src/capitalize.js";
+import { strict as assert } from "assert";
 
-if (capitalize("hello") !== "Hello") {
-  throw new Error("Not right result!");
-}
-if (capitalize("") !== "") {
-  throw new Error("Not right result!");
-}
+assert.strictEqual(capitalize("hello"), "Hello");
+assert.strictEqual(capitalize(""), "");

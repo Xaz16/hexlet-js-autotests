@@ -1,0 +1,23 @@
+{
+  "name": "js-tests",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Xaz16/hexlet-js-autotests.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Xaz16/hexlet-js-autotests/issues"
+  },
+  "homepage": "https://github.com/Xaz16/hexlet-js-autotests#readme"
+}
